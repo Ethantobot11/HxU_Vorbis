@@ -4,6 +4,7 @@ import cxx.ConstCharPtr;
 import cxx.num.*;
 import cxx.Ptr;
 import cxx.VoidPtr;
+import cxx.Char;
 
 @:native("OggVorbis_File")
 @:include("vorbis/vorbisfile.h")

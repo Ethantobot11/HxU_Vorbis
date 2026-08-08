@@ -5,6 +5,7 @@ import cxx.num.*;
 import cxx.Ptr;
 import cxx.VoidPtr;
 import cxx.Char;
+import vorbis.Codec.Vorbis_info;
 
 @:native("OggVorbis_File")
 @:include("vorbis/vorbisfile.h")

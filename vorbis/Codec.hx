@@ -1,5 +1,10 @@
 package vorbis;
 
+import cxx.ConstCharPtr;
+import cxx.num.*;
+import cxx.Ptr;
+import cxx.VoidPtr;
+
 @:native("vorbis_info")
 @:include("vorbis/codec.h")
 @:valueType

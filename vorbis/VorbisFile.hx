@@ -1,5 +1,10 @@
 package vorbis;
 
+import cxx.ConstCharPtr;
+import cxx.num.*;
+import cxx.Ptr;
+import cxx.VoidPtr;
+
 @:native("OggVorbis_File")
 @:include("vorbis/vorbisfile.h")
 @:valueType
